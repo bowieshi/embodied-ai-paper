@@ -1,65 +1,29 @@
-# Todo list
+# Embodied AI Paper Reading
 
-Multi-scale context aggregation by dilated convolutions
+My research work currently lies in [Human Motion Generation](https://arxiv.org/abs/2307.10894) and Control. This list will mostly contain papers related to this field. Also, I will include some interesting papers from other fields in embodied ai.
 
-Learning synergies between pushing and grasping with self-supervised deep reinforcement learning
+Wonderful articles for understanding the basics of generative models (especially for green hand):
 
-Contactnets: Learning discontinuous contact dynamics with smooth, implicit representations.
+1. [Understanding Variational Autoencoders (VAEs)](https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73)
 
-# embodied-ai-paper
+2. [Bayesian inference problem, MCMC and variational inference](https://towardsdatascience.com/bayesian-inference-problem-mcmc-and-variational-inference-25a8aa9bce29)
 
-Research paper reading on embodied ai
+3. [An In-Depth Guide to Denoising Diffusion Probabilistic Models DDPM – Theory to Implementation](https://learnopencv.com/denoising-diffusion-probabilistic-models/)
 
-Learning to Prompt for Vision-Language Models
+## Generative Models
 
-解读1: https://zhuanlan.zhihu.com/p/422408815
-解读2: https://blog.csdn.net/weixin_50917576/article/details/137870975
+1. [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
 
-Neural Discrete Representation Learning (VQ-VAE)
+2. [Hierarchical Text-Conditional Image Generation with CLIP Latents](https://arxiv.org/abs/2204.06125)
 
-解读1: https://zhuanlan.zhihu.com/p/658095745
-解读2: https://zhuanlan.zhihu.com/p/72738517
-
-straight-through estimator
-[深度生成模型以及模型不可导问题的处理方法](https://zhuanlan.zhihu.com/p/617116528)
+3. [GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models](https://arxiv.org/abs/2112.10741)
 
 
-goal-conditioned policies: (involves the user providing a goal-image from the scene)
+## Human Motion Generation
 
-# End-to-end models(pixels2actions)
+1. [Human Motion Generation: A Survey](https://arxiv.org/abs/2307.10894)
 
-S. Levine, C. Finn, T. Darrell, and P. Abbeel. End-to-end training of deep visuomotor policies. The Journal of Machine Learning Research (JMLR), 2016.
+2. [OmniControl: Control Any Joint at Any Time for Human Motion Generation](https://arxiv.org/abs/2310.08580)
 
-D. Kalashnikov, A. Irpan, P. Pastor, J. Ibarz, A. Herzog, E. Jang, D. Quillen, E. Holly, M. Kalakrishnan, V. Vanhoucke, et al. Qt-opt: Scalable deep reinforcement learning for vision-based robotic manipulation. Conference on Robot Learning (CoRL), 2018.
+3. [Human Motion Diffusion Model](https://arxiv.org/abs/2209.14916)
 
-# Object-centric models
-
-## object keypoints
-
-L. Manuelli, W. Gao, P. Florence, and R. Tedrake. kpam: Keypoint affordances for category-level robotic manipulation. International Symposium on Robotics Research (ISRR), 2019.
-
-T. D. Kulkarni, A. Gupta, C. Ionescu, S. Borgeaud, M. Reynolds, A. Zisserman, and V. Mnih. Unsupervised learning of object keypoints for 
-perception and control. NeurIPS, 2019.
-
-A. Nagabandi, K. Konolige, S. Levine, and V. Kumar. Deep dynamics models for learning dexterous manipulation. Conference on Robot Learning (CoRL), 2020.
-
-X. Liu, R. Jonschkowski, A. Angelova, and K. Konolige. Keypose: Multi-view 3d labeling and keypoint estimation for transparent objects. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
-
-## embeddings
-O. Mees, N. Abdo, M. Mazuran, and W. Burgard. Metric learning for generalizing spatial relations to new objects. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2017.
-
-P. Jund, A. Eitel, N. Abdo, and W. Burgard. Optimization beyond the convolution: Generalizing spatial relations with end-to-end metric learning. IEEE International Conference on Robotics and Automation (ICRA), 2018.
-
-## dense descriptors
-P. R. Florence, L. Manuelli, and R. Tedrake. Dense object nets: Learning dense visual object descriptors by and for robotic manipulation. Conference on Robot Learning (CoRL), 2018.
-
-P. Florence, L. Manuelli, and R. Tedrake. Self-supervised correspondence in visuomotor policy learning. IEEE Robotics and Automation Letters (RA-L), 2019.
-
-P. Sundaresan, J. Grannen, B. Thananjeyan, A. Balakrishna, M. Laskey, K. Stone, J. E. Gonzalez, and K. Goldberg. Learning rope manipulation policies using dense object descriptors trained on synthetic depth data. IEEE International Conference on Robotics and Automation (ICRA), 2020.
-
-
-
-[2020] Transporter Networks: Rearranging the Visual World for Robotic Manipulation
-只考虑immobilizing grasp(suction gripper)，你就会发现pick和place的位置是一个关于pixel的distribution
-benefits: 1. handle unseen objects; 2. handle deformable objects; 3.handle uncaountable piles of small objects.
-比较适合spatially consistent 的物体，可以简化训练的时候数据增强的难度，对于一些perspective images，外观会随着相机的视角或者lens property而变换，你就需要去重建他的外形
