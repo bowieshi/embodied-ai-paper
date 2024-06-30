@@ -39,9 +39,11 @@ Wonderful articles for understanding the basics of generative models (especially
 1. [Human Motion Diffusion Model](https://arxiv.org/abs/2209.14916)
 2. [Generating Diverse and Natural 3D Human Motions from Text](https://ericguo5513.github.io/text-to-motion/)
 
-2. [OmniControl: Control Any Joint at Any Time for Human Motion Generation](https://arxiv.org/abs/2310.08580)
+3. [OmniControl: Control Any Joint at Any Time for Human Motion Generation](https://arxiv.org/abs/2310.08580)
 
-3. [TLcontrol: Trajectory and Language Control for Human Motion Synthesis](https://tlcontrol.weilinwl.com)
+4. [TLcontrol: Trajectory and Language Control for Human Motion Synthesis](https://tlcontrol.weilinwl.com)
+
+5. [[CVPR2024] Scaling Up Dynamic Human-Scene Interaction Modeling](https://jnnan.github.io/trumans/)
 
 
 ## Physical-based Human Character Motion
@@ -61,6 +63,11 @@ Wonderful articles for understanding the basics of generative models (especially
 5. [Controllable Human-Object  Interaction Synthesis](https://lijiaman.github.io/projects/chois/)
 6. [Object Motion Guided Human Motion Synthesis](https://lijiaman.github.io/projects/omomo/)
 
+## Human Scene Interaction
+
+1. [[ECCV 2022] COINS: Compositional Human-Scene Interaction Synthesis with Semantic Control](https://zkf1997.github.io/COINS/index.html)
+2. [[ICCV 2023] DIMOS: Synthesizing Diverse Human Motions in 3D Indoor Scenes](https://zkf1997.github.io/DIMOS/)
+
 ## SMPL
 
 1. [SMPL: A Skinned Multi-Person Linear Model](https://smpl.is.tue.mpg.de)
@@ -75,6 +82,22 @@ Wonderful articles for understanding the basics of generative models (especially
 5. [ProcTHOR: Large-Scale Embodied AI Using Procedural Generation](https://procthor.allenai.org)
 6. [CIRCLE: Capture In Rich Contextual Environments](https://stanford-tml.github.io/circle_dataset/)
 
+## Reconstruction from Image
+
+1. [PC2: Projection-Conditioned Point Cloud Diffusion for Single-Image 3D Reconstruction](https://lukemelas.github.io/projection-conditioned-point-cloud-diffusion/)
+2. [[ECCV2022] CHORE: Contact, Human and Object REconstruction from a single RGB image](https://virtualhumans.mpi-inf.mpg.de/chore/)
+3. [Template Free Reconstruction of Human-object Interaction with Procedural Interaction Generation](https://virtualhumans.mpi-inf.mpg.de/procigen-hdm/)
+
+## Point Cloud Processing
+
+1. [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://stanford.edu/~rqi/pointnet/)
+2. [PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space]()
+
 ## Others
 
 1. [MotionGPT: Human Motion  as Foreign Language](https://motion-gpt.github.io)
+1. [Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset](https://motion-x-dataset.github.io/)
+
+
+
+[PointNet++] At lower levels neurons have smaller receptive fields whereas at higher levels they have larger receptive fields. The ability to abstract local patterns along the hierarchy allows better generalizability to unseen cases. 
