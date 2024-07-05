@@ -33,6 +33,7 @@ Wonderful articles for understanding the basics of generative models (especially
 1. [HumanML3D: A large and diverse 3d human motion-language dataset](https://github.com/EricGuo5513/HumanML3D)
 2. [AMASS: Archive of Motion Capture As Surface Shapes](https://amass.is.tue.mpg.de)
 3. [SAMP: Stochastic Scene-Aware Motion Prediction](https://samp.is.tue.mpg.de)
+4. [Motion-X: A Large-scale 3D Expressive  Whole-body Human Motion Dataset](https://motion-x-dataset.github.io)
 
 ## Generation-Model-Based Character Motion 
 
@@ -43,7 +44,7 @@ Wonderful articles for understanding the basics of generative models (especially
 
 4. [TLcontrol: Trajectory and Language Control for Human Motion Synthesis](https://tlcontrol.weilinwl.com)
 
-5. [[CVPR2024] Scaling Up Dynamic Human-Scene Interaction Modeling](https://jnnan.github.io/trumans/)
+5. [[CVPR 2024 Highlight] Scaling Up Dynamic Human-Scene Interaction Modeling](https://jnnan.github.io/trumans/)
 
 
 ## Physical-based Human Character Motion
@@ -52,6 +53,7 @@ Wonderful articles for understanding the basics of generative models (especially
 2. [Learning Physically Simulated Tennis Skills from Broadcast Videos](https://research.nvidia.com/labs/toronto-ai/vid2player3d/)
 3. [UniHSI: Unified Human-Scene Interaction via Prompted Chain-of-Contacts](https://xizaoqu.github.io/unihsi/)
 4. [ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters](https://xbpeng.github.io/projects/ASE/index.html)
+5. [PhysHOI: Physics-Based Imitation of Dynamic Human-Object Interaction](https://wyhuai.github.io/physhoi-page/)
 
 
 ## Human Object Interaction
@@ -67,6 +69,7 @@ Wonderful articles for understanding the basics of generative models (especially
 
 1. [[ECCV 2022] COINS: Compositional Human-Scene Interaction Synthesis with Semantic Control](https://zkf1997.github.io/COINS/index.html)
 2. [[ICCV 2023] DIMOS: Synthesizing Diverse Human Motions in 3D Indoor Scenes](https://zkf1997.github.io/DIMOS/)
+3. [[CVPR 2024 spotlight] Scaling Up Dynamic Human-Scene Interaction Modeling](https://jnnan.github.io/trumans/)
 
 ## SMPL
 
@@ -85,18 +88,36 @@ Wonderful articles for understanding the basics of generative models (especially
 ## Reconstruction from Image
 
 1. [PC2: Projection-Conditioned Point Cloud Diffusion for Single-Image 3D Reconstruction](https://lukemelas.github.io/projection-conditioned-point-cloud-diffusion/)
-2. [[ECCV2022] CHORE: Contact, Human and Object REconstruction from a single RGB image](https://virtualhumans.mpi-inf.mpg.de/chore/)
-3. [Template Free Reconstruction of Human-object Interaction with Procedural Interaction Generation](https://virtualhumans.mpi-inf.mpg.de/procigen-hdm/)
+2. [[ECCV 2022] CHORE: Contact, Human and Object REconstruction from a single RGB image](https://virtualhumans.mpi-inf.mpg.de/chore/)
+3. [[CVPR 2024 Highlight] Template Free Reconstruction of Human-object Interaction with Procedural Interaction Generation](https://virtualhumans.mpi-inf.mpg.de/procigen-hdm/)
 
 ## Point Cloud Processing
 
 1. [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://stanford.edu/~rqi/pointnet/)
 2. [PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space]()
 
+## Human Pose Estimation
+
+1. [[CVPR 2024] WHAM: Reconstructing World-grounded Humans with Accurate 3D Motion](https://wham.is.tue.mpg.de)
+
+## Humanoid
+
+1. [HumanPlus: Humanoid Shadowing and Imitation from Humans](https://humanoid-ai.github.io)
+
+## Egocentic Video Understanding
+
+1. [[CVPR 2023] Ego-Body Pose Estimation via Ego-Head Pose Estimation](https://lijiaman.github.io/projects/egoego/)
+2. [[SIGGRAPH 2023] EgoLocate: Real-time Motion Capture, Localization, and Mapping with Sparse Body-mounted Sensors](https://xinyu-yi.github.io/EgoLocate/)
+3. [[CVPR 2024 Oral] EgoGen: An Egocentric Synthetic Data Generator](https://ego-gen.github.io)
+4. [EgoChoir: Capturing 3D Human-Object Interaction Regions from Egocentric Views](https://yyvhang.github.io/EgoChoir/)
+
+## 3D Object Generation
+
+1. [[CVPR 2024] One-2-3-45++: Fast Single Image to 3D Objects with Consistent Multi-View Generation and 3D Diffusion](https://sudo-ai-3d.github.io/One2345plus_page/)
+
 ## Others
 
 1. [MotionGPT: Human Motion  as Foreign Language](https://motion-gpt.github.io)
-1. [Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset](https://motion-x-dataset.github.io/)
 
 
 
