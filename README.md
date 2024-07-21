@@ -92,6 +92,7 @@ Wonderful articles for understanding the basics of generative models (especially
 3. [LayoutGPT: Compositional Visual Planning and Generation with Large Language Models](https://layoutgpt.github.io)
 4. [Holodeck: Language Guided Generation of  3D Embodied AI Environments](https://yueyang1996.github.io/holodeck/)
 5. [ProcTHOR: Large-Scale Embodied AI Using Procedural Generation](https://procthor.allenai.org)
+6. [Generalizable 3D Scene Reconstruction via  Divide and Conquer from a Single View](https://andreeadogaru.github.io/Gen3DSR/)
 
 ### Object Generation (Reconstruction from Image)
 
@@ -110,7 +111,12 @@ Wonderful articles for understanding the basics of generative models (especially
 
 ### Human Pose Estimation
 
-1. [[CVPR 2024] WHAM: Reconstructing World-grounded Humans with Accurate 3D Motion](https://wham.is.tue.mpg.de)
+1. [[CVPR 2021] HybrIK: A Hybrid Analytical-Neural Inverse Kinematics Solution for 3D Human Pose and Shape Estimation](https://github.com/Jeff-sjtu/HybrIK)
+
+2. [[CVPR 2024] WHAM: Reconstructing World-grounded Humans with Accurate 3D Motion](https://wham.is.tue.mpg.de)
+3. [TRAM: Global Trajectory and Motion of 3D Humans from in-the-wild Videos](https://yufu-wang.github.io/tram4d/)
+4. [[CVPR 2024 Oral] RoHM: Robust Human Motion Reconstruction via Diffusion](https://sanweiliti.github.io/ROHM/ROHM.html)
+5. [[NIPS 2022] Embodied Scene-aware Human Pose Estimation](https://www.zhengyiluo.com/projects/embodied_pose/)
 
 ### Contact Estimation
 
@@ -126,6 +132,7 @@ Wonderful articles for understanding the basics of generative models (especially
 2. [[SIGGRAPH 2023] EgoLocate: Real-time Motion Capture, Localization, and Mapping with Sparse Body-mounted Sensors](https://xinyu-yi.github.io/EgoLocate/)
 3. [[CVPR 2024 Oral] EgoGen: An Egocentric Synthetic Data Generator](https://ego-gen.github.io)
 4. [[CVPR 2024] Ego-Exo4D: Understanding Skilled Human Activity from First- and Third-Person Perspectives](https://ego-exo4d-data.org)
+5. [[ICCV 2023] COPILOT: Human-Environment Collision Prediction and Localization from Multi-view Egocentric Videos](https://sites.google.com/stanford.edu/copilot)
 
 ### LLM-Based
 
@@ -139,9 +146,11 @@ Wonderful articles for understanding the basics of generative models (especially
 2. [[SIGGRAPH 2021] AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control](https://xbpeng.github.io/projects/AMP/index.html)
 3. [[SIGGRAPH 2022] ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters](https://xbpeng.github.io/projects/ASE/index.html)
 4. [[SIGGRAPH 2023] Learning Physically Simulated Tennis Skills from Broadcast Videos](https://research.nvidia.com/labs/toronto-ai/vid2player3d/)
+5. [[SIGGRAPH 2018] DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills](https://xbpeng.github.io/projects/DeepMimic/index.html)
 
 ## (11) Robotics
 
 ### Humanoid
 
 1. [HumanPlus: Humanoid Shadowing and Imitation from Humans](https://humanoid-ai.github.io)
+1. [Perpetual Humanoid Control for Real-time Simulated Avatars](https://www.zhengyiluo.com/PHC-Site/)
